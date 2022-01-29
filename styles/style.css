@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+main .main-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: fit-content;
+    height: fit-content;
+    margin: 108.75px;
+    position: absolute;
+}
+main .main-logo img{
+    width: 200px;
+    height: 182.5px;
+}
+main .countrys-left {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+main .countrys-right {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+
+}
+main .countrys-left li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    /*margin-right: 100px;*/
+    height: 60px;
+    flex-direction: column;
+    width: fit-content;
+}
+main .countrys-right li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    /*margin-left: 100px;*/
+    height: 60px;
+    flex-direction: column;
+    width: fit-content;
+}
+main .countrys-left .spanish{
+    padding-right: 80px;
+}
+main .countrys-left .japanese{
+    padding-right: 120px;
+}
+main .countrys-left .german{
+    padding-right: 130px;
+}
+main .countrys-left .italian{
+    padding-right: 120px;
+}
+main .countrys-left .polish{
+    padding-right: 80px;
+}
+
+
+main .countrys-right .english{
+    padding-left: 80px;
+}
+main .countrys-right .russian{
+    padding-left: 120px;
+}
+main .countrys-right .french{
+    padding-left: 130px;
+}
+main .countrys-right .chinese{
+    padding-left: 120px;
+}
+main .countrys-right .portuguese{
+    padding-left: 80px;
+}
