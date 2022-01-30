@@ -203,10 +203,25 @@ main .main-bottom-border-container{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 100%;
 }
 main .main-bottom-border{
     border: 0.1px solid #a2a9b1;
     height: 0px;
     width: 95%;
+}
+main .more-poducts-section{
+    display: flex;
+    align-items: center;
+}
+main .about-wikipedia{
+    width: 20%;
+    height: 400px;
+}
+main .wikipedia-products{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 80%;
+    height: 400px;
 }
