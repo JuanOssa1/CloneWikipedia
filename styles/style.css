@@ -132,26 +132,33 @@ main .search-container{
     margin-top: 10px;
     width: 40px;
     height: 39px;
-    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
     /*background-size: contain;*/
     background-repeat: no-repeat;
     background-color: #3366cc;
     cursor: pointer;
 }
-/*
+main .search-icon-container {
+    display: flex;
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+}
+
 main .search-icon{
-    background-image: url('https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #3366cc;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     position: relative;
     cursor: pointer;
 }
-*/
 main .idiom-list {
     border: none;
     outline: none;
+}
+main .main-translate-section{
+    display: flex;
+    border: 1px solid #a2a9b1;
+    width: 230px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
 }
