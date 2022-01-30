@@ -156,9 +156,57 @@ main .idiom-list {
 }
 main .main-translate-section{
     display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+main .translate-border-left{
+    border: 0.1px solid #a2a9b1;
+    height: 0px;
+    width: 95px;
+    margin-right: 15px;
+
+
+}
+main .translate-border-right{
+    border: 0.1px solid #a2a9b1;
+    height: 0px;
+    width: 95px;
+    margin-left: 15px;
+}
+main .translate-container{
+    display: flex;
     border: 1px solid #a2a9b1;
     width: 230px;
     height: 25px;
+    justify-content: left;
+    align-items: center;
+}
+main .transalate-list{
+    height: 24px;
+    width: 190px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+main .translate-icon-container{
+    margin: 0;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+main .translate-icon{
+    width: 17px;
+    height: 17px;
+}
+main .main-bottom-border-container{
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+main .main-bottom-border{
+    border: 0.1px solid #a2a9b1;
+    height: 0px;
+    width: 95%;
 }
