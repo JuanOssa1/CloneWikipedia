@@ -22,14 +22,18 @@ header .main-title{
 }
 header .main-title h1{
     margin: 0;
+    font-size: 4.0rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 header .main-title p{
     margin: 0;
     margin-top: 5px;
+    font-size: 1.3rem;
 }
 main .main-section {
     display: flex;
     justify-content: center;
+    font-size: 1.3rem;
     /*margin-top: 100px;*/
 }
 main .main-logo{
@@ -218,19 +222,21 @@ main .main-bottom-border{
 }
 main .more-poducts-section{
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
 }
 main .about-wikipedia{
+    display: flex;
     width: 30%;
-    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
 }
 main .wikipedia-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /*grid-template-columns: 6fr 10fr;*/
     width: 70%;
     height: 400px;
-    
+    font-size: 1.3rem;
 }
 main .products{
     display: grid;
@@ -291,4 +297,80 @@ main .commons-img{
 main li a img{
     margin-right: 10px;
 }
-
+main .wikipedia-foundation{
+    display: flex;
+    font-size: 1.3rem;
+    width: 320px;
+    padding: 10px;
+    justify-self: center;
+}
+main .wikipedia-foundation p{
+    margin: 0;
+}
+main .wikipedia-foundation img{
+    width: 42px;
+    height: 42px;
+    padding-right: 10px;
+}
+main .download-wikipedia{
+    display: flex;
+    font-size: 1.3rem;
+    background-color:#f8f9fa ;
+    width: 320px;
+    padding-top: 10px;
+    padding-left:10px ;
+    padding-right: 10px;
+    justify-content: center;
+}
+main .download-wikipedia img {
+    width: 42px;
+    height: 42px;
+    padding-right: 10px;
+}
+main .download-wikipedia p h3{
+    margin-top: 0;
+}
+main .download-wikipedia h3{
+    margin-top: 0;
+}
+main .download-sites {
+    display: flex;
+    flex-direction: row;
+}
+main .download-sites img{
+    padding-bottom: 10px;
+    width: 124px;
+    height: 38px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+footer .footer-conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-conatiner li{
+    padding: 5px;
+    list-style: none;
+}
+main .footer-bottom-border-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+main .footer-bottom-border{
+    border: 0.1px solid #a2a9b1;
+    height: 0px;
+    width: 95%;
+}
